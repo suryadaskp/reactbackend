@@ -1,7 +1,6 @@
 //1. import express
 const express = require("express")
 
-
 //2.initialise 
 const app = new  express()
 app.use(express.urlencoded({extended:true}));
